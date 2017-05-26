@@ -1,0 +1,11 @@
+Installation
+============
+
+Add this egg to your Zope app server using the plone.recipe.zope2instance
+recipe.
+
+To run it, use the Zope instance's "run" command; for example::
+
+    bin/instance run src/jpl/plone2ldap/main.py plone
+
+Use ``--help`` to get the possible options and required arguments.
