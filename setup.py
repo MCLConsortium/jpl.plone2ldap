@@ -8,7 +8,7 @@ import os.path
 # ------------
 
 _name            = 'jpl.plone2ldap'
-_version         = '0.0.0'
+_version         = '1.0.0'
 _description     = 'Export Plone usernames and passwords and import them into an LDAP server'
 _url             = 'https://github.com/MCLConsortium/' + _name
 _downloadURL     = 'https://github.com/MCLConsortium/' + _name + '/archive/' + _version + '.zip'
@@ -28,7 +28,7 @@ _requirements = [
     'python-ldap',
 ]
 _classifiers = [
-    'Development Status :: 2 - Pre-Alpha',
+    'Development Status :: 3 - Alpha',
     'Environment :: Web Environment',
     'Framework :: Plone',
     'License :: Other/Proprietary License',
