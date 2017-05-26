@@ -1,0 +1,4 @@
+graft docs
+include README.rst
+global-exclude *.pyc
+exclude .gitignore
